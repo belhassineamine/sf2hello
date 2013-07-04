@@ -5,3 +5,7 @@ belhassine_hello_homepage:
 belhassine_hello_addition:
     pattern:  /hello/addition/{a}/{b}
     defaults: { _controller: BelhassineHelloBundle:Math:addition }
+
+belhassine_hello_soustraction:
+    pattern:  /hello/soustraction/{a}/{b}
+    defaults: { _controller: BelhassineHelloBundle:Math:soustraction }
