@@ -1,0 +1,7 @@
+belhassine_hello_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: BelhassineHelloBundle:Default:index }
+
+belhassine_hello_addition:
+    pattern:  /hello/addition/{a}/{b}
+    defaults: { _controller: BelhassineHelloBundle:Math:addition }

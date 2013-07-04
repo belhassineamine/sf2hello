@@ -1,0 +1,7 @@
+parameters:
+#    belhassine_hello.example.class: Belhassine\HelloBundle\Example
+
+services:
+#    belhassine_hello.example:
+#        class: %belhassine_hello.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,0 +1,4 @@
+belhassine_hello:
+    resource: "@BelhassineHelloBundle/Resources/config/routing.yml"
+    prefix:   /
+
